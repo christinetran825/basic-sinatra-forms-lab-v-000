@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    
+    @team_position = params[""]
     erb :team
   end
 
